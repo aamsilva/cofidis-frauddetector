@@ -224,4 +224,40 @@ Mesmos condutores, diferentes carros, mesmas oficinas, mesmo médico.
 Sinistros sempre às terças-feiras, sempre às 11h, sempre em rotundas.
 
 **Agentes:** Claims Fraud + Link Analysis + Temporal Pattern Detection
-**Deteção
+**Deteção:** Padrão temporal idêntico, mesmas entidades envolvidas, localizações similares
+
+---
+
+## Métricas do Portfólio Avançado
+
+| Métrica | Valor |
+|---------|-------|
+| **Total Agentes** | 15 (5 atuais + 10 novos) |
+| **Cobertura Fraudes** | Micro → Macro (€100 a €10M+) |
+| **Casos Documentados** | 10 (5 básicos + 5 avançados) |
+| **Valor Total Protegido (Exemplos)** | €33,350+ |
+| **Setores** | Banking + Insurance + Crypto |
+
+---
+
+## Roadmap de Implementação Fase 2
+
+### Prioridade 1 (Meses 1-3)
+- Social Engineering Detection Agent
+- Money Mule Detection Agent
+- Instant Payment Flood Agent
+
+### Prioridade 2 (Meses 4-6)
+- Cross-Channel Orchestration Agent
+- Transaction Laundering Agent
+- Claims & Insurance Fraud Agent
+
+### Prioridade 3 (Meses 7-9)
+- Real-Time Biometric Behavior Agent
+- Dark Web Intelligence Agent
+- Cryptocurrency Bridge Agent
+- Synthetic Identity 2.0 Agent
+
+---
+
+*Documento atualizado automaticamente com pesquisa contínua*
