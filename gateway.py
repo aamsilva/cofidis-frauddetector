@@ -11,6 +11,8 @@ import uvicorn
 
 # Import agents
 from agents.transaction_monitor import TransactionMonitorAgent
+from agents.behavioral_analysis import BehavioralAnalysisAgent
+from agents.identity_verification import IdentityVerificationAgent
 from agents.risk_orchestrator import RiskOrchestrator
 
 app = FastAPI(
@@ -30,10 +32,18 @@ app.add_middleware(
 
 # Initialize system
 orchestrator = RiskOrchestrator()
-transaction_monitor = TransactionMonitorAgent()
 
-# Register agents
+# Create agents
+transaction_monitor = TransactionMonitorAgent()
+behavioral_analysis = BehavioralAnalysisAgent()
+identity_verification = IdentityVerificationAgent()
+
+# Register all agents
 orchestrator.register_agent(transaction_monitor)
+orchestrator.register_agent(behavioral_analysis)
+orchestrator.register_agent(identity_verification)
+
+print(f"📊 Registered agents: {list(orchestrator.agents.keys())}")
 
 print("🚀 Cofidis Fraud Detector initialized!")
 print(f"📊 Registered agents: {list(orchestrator.agents.keys())}")
